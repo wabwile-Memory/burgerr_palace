@@ -27,3 +27,30 @@
     right:0;
     justify-content: space-between;
 }
+.home {
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.firstimage {
+    margin-bottom: 80px;
+    padding: 40px;
+  height: min-content;
+  
+}
+li{
+    list-style: none;
+    justify-content: space-around;
+    margin-right: 80px;;
+    }
+    
+    .firstdiv {
+        display:flex;
+        padding: 10px;
+        margin:30px;
+        margin-top: 10px;
+        justify-content: space-between;
+        align-items: center;
+
+    
+    }
