@@ -1,6 +1,6 @@
 @font-face {
     font-family: Poppins;
-    src: url(fonts/Poppins-Light.ttf);
+    src: url(fonts/Poppins-Medium.ttf);
 }
 .container {
     margin: auto;
@@ -38,6 +38,7 @@ a{
 .home {
     margin-right: 20px;
     padding: 20px;
+    text-decoration:underline 8px solid#ff7300;
 }
 
 .firstimage {
@@ -50,6 +51,9 @@ li{
     justify-content: space-around;
     margin-right: 80px;;
     }
+    .lastburger{
+        font-size: 35px;
+    }
 .firstdiv {
         display:flex;
         padding: 10px;
@@ -61,11 +65,13 @@ li{
  button {
     border: none;
     border-color: rgb(255, 166, 0);
-    height: 30px;
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
     background-color: rgb(255, 166, 0);
     color: white;
     margin-top: 90px;
-    border-radius: 40% 40% 0% 40%;
+    border-radius: 45% 45% 0% 45%;
 }
 #secondimage {
     float: right;
@@ -86,7 +92,7 @@ li{
     float: left;
     background-color: rgb(239, 253, 255);
     padding: 100px 10px 100px 10px;
-    height: 100%;
+    height:100%;
 
 }
 .qualityburgers {
@@ -102,13 +108,13 @@ li{
 .fastdelivery {
     border: 1.5px solid rgb(114, 69, 69);
     padding: 10px;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 60px;
     margin: 20px;
     margin-right: 0px;
     float: left;
     width: 40%;
-    height: 60%;
+    height: 200px;
     flex: row;
     text-align: center;
     border-radius: 25px;
@@ -236,7 +242,7 @@ li{
     margin: 20px;
     margin-top: 100px;
 }
-@media only screen and (min-width:600px){
+@media only screen and (max-width:600px){
     .dot{
         height:20px;
         width:20px;
@@ -253,7 +259,7 @@ li{
     margin: 20px;
     margin-top: 100px;
 }
-@media only screen and (min-width:600px){
+@media only screen and (max-width:600px){
     .dot1{
         height:20px;
         width:20px;
@@ -263,6 +269,14 @@ li{
 
 span {
     color: #F6B400;
+}
+.arrow-5:before {
+	content: '';
+	position: absolute;
+	top: 0px; right: 0px;
+	display: block;
+	height: 12px; width: 16px;
+	background-color:rgb(255, 196, 0)  ;
 }
 .decker {
     float: right;
@@ -324,4 +338,5 @@ br {
 .copyright{
     display: flex;
     justify-content: space-between;
+    height: 30px;
 }
