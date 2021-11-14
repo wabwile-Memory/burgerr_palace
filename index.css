@@ -207,3 +207,14 @@ li{
     text-align: center;
     border-radius: 25px;
 }
+.doubledecker {
+    display: flex;
+    background-color: rgb(239, 253, 255);
+    padding: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.double{
+    justify-content: space-between;
+    font-size:30px;
+}
