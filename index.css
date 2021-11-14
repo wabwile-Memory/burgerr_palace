@@ -218,3 +218,23 @@ li{
     justify-content: space-between;
     font-size:30px;
 }
+.dot{
+    height: 25px;
+    width:25px;
+    background-color:#bbb ;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 100px;
+}
+.dot1{
+    height: 25px;
+    width:25px;
+    background-color:rgb(255, 196, 0) ;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 100px;
+}
