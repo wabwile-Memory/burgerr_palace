@@ -59,3 +59,18 @@ li{
     margin-top: 90px;
     border-radius: 40% 40% 0% 40%;
 }
+#secondimage {
+    float: right;
+    margin-right: 100px;
+    padding-right: 50%;
+    margin-bottom: 50%;
+    padding-top: 20%;
+}
+.bar{display: flex;}
+
+.rain {
+    margin-top: 30%;
+   padding-left: 20px;
+   align-items: center;
+   font-size: 30px;
+}
