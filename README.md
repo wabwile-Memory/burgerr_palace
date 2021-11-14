@@ -1,6 +1,7 @@
 # burger_palace
 burger restaurant
 #### {Burger palace is a restaurant that sells burgers}, {5th Nov, 2021}
+https://wabwile-memory.github.io/burgerr_palace/
 #### By **{Wabwile Memory}**
 ## Description
 {urger palace is a restaurant that sells burgers. It offers both dining in and take away services. there is a mobile application that enables customers to order and get a delivery }
