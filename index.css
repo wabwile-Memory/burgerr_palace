@@ -261,3 +261,22 @@ br {
     padding: 50px;
     margin-left: 20px;
 }
+.lastdiv {
+    background-color: rgb(239, 253, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first {
+    display: flex;
+    font-family: "helvetica";
+    margin: 0%;
+    margin-right: 60px;
+    align-items: center;
+
+}.fist{
+    display: flex;
+    font-family: "helvetica";
+    margin-right: 60px;
+    align-items: center;
+}
